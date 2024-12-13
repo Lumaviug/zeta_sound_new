@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZETA SOUND</title>
+
+    <!-- TIPOGRAFÍA -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+    <!-- ICONOS -->
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Swiper.js CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- REPOSITORIO -->
+     <!-- https://github.com/lydiaasc/zeta_sound.git -->
+  </head>
+
+
+  <body>
+    <div class="header">
+        <!-- Navbar -->
+        <div class="video-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                              <a class="btn btn-outline-light rounded-btn gradient-btn" href="#city">· CIUDADES</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="btn btn-outline-light rounded-btn gradient-btn" href="#tickets">· ABONOS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="btn btn-outline-light rounded-btn gradient-btn" href="#news">· NEWS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="btn btn-outline-light rounded-btn gradient-btn" href="#artist">· ARTISTAS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="btn btn-outline-light rounded-btn gradient-btn" href="#radio">· RADIO</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="btn btn-outline-light rounded-btn gradient-btn" href="#experience">· EXPERIENCE</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="logo logo-container">
+                <img src="media/logo_color_Zeta_Sound.png" class="img-fluid" alt="...">
+                <!-- <p class="header-text">Creado para gente que mueve el mundo</p> -->
+                <a href="#city" class="btn-1">
+                  <i class="fa-solid fa-chevron-down fa-2x" style="color: #ffffff;"></i>
+                </a>
+              
+
+            </div>
+
+            <video autoplay muted loop>
+                <source src="media/video_intro.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+
+
+        </div>
+        
+    </div>
+
+    <!-- Secciones de la página -->
+    <section id="city" class="container my-5">
+        <h1 class="title">Nuestras ciudades favoritas</h1>
+        <p class="subtitle">Cógete un ALSA por amor (a la música)</p>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="media/foto_uno.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ZETA SOUND MADRID</h5>
+                  <p class="card-text">21 al 24 de Junio 2025</p>
+                  <p class="card-text">Auditorio Miguel Ríos</p>
+                  <br>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="media/foto_dos.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ZETA SOUND VALENCIA</h5>
+                    <p class="card-text">11 al 15 de Julio 2025</p>
+                    <p class="card-text">Recinto Burriana</p>
+                    <br>  
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="media/foto_tres.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ZETA SOUND BILBAO</h5>
+                    <p class="card-text">22 al 26 de Julio 2025</p>
+                    <p class="card-text">Recinto BIVA</p>
+                    <br>  
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="media/foto_cuatro.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ZETA SOUND TENERIFE</h5>
+                    <p class="card-text">6 al 10 de Agosto 2025</p>
+                    <p class="card-text">Auditorio Adán Martín</p>
+                    <br>  
+                  </div>
+                </div>
+              </div>
+            </div>
+    </section>
+
+    <section class="container-fluid vh-100 d-flex flex-column section-with-margins">
+      <div class="row h-100 flex-wrap">
+        <!-- Left Section -->
+        <div class="col-12 col-md-6 left-section">
+          <span class="overlay-text">DESDE 2024</span>
+          <img src="media/create_rosalia.webp" alt="Zeta Sound">
+          <h1>zeta sound</h1>
+        </div>
+        <!-- Right Section -->
+        <div class="col-12 col-md-6 right-section">
+          <h2>Creado para gente que mueve el mundo.</h2>
+        </div>
+      </div>
+    </section>
+    
+    <section id="tickets" class="container my-5">
+      <div class="container mt-5">
+        <h1 class="title">Elige tu abono</h1>
+        <p class="subtitle">No hay nada mejor que saber lo que quieres</p>
+        
+        <div class="row justify-content-center">
+          <div class="col-md-3" data-aos="zoom-out">
+            <div class="tickets">
+              <h3>General</h3>
+              <p>Acceso general.</p>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="zoom-out">
+            <div class="tickets">
+              <h3>VIP</h3>
+              <p>Acceso general.</p>
+              <p>Acceso Front Stage o plataforma VIP elevada.</p>
+              <p>Barra privada.</p>
+              <p>Baños privados.</p>
+            </div>
+          </div>
+    
+          <div class="col-md-3" data-aos="zoom-out">
+            <div class="tickets">
+              <h3>Entrada de día</h3>
+              <p>Acceso general.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-3" data-aos="zoom-out">
+            <div class="tickets">
+              <h3>Front Stage</h3>
+              <p>Acceso Front Stage.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Botón -->
+        <div class="container my-5 d-flex justify-content-end">
+          <a href="paginas/compra.html" class="btn-custom">Prepárate para ver a tus artistas favoritos</a>
+        </div>
+        
+      </div>
+    </section>
+    
+    <section id="news" class="container my-5">
+      <h1 class="title">Highlights & News</h1>
+      <p class="subtitle">¿Cómo que aún no sabes todo de nosotros? Toma anda...</p>
+  
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+          <!-- Card 1 -->
+          <div class="col-12 col-md-6">
+              <div class="card flex-md-row flex-column align-items-center" data-aos="flip-left">
+                  <img src="media/imagen_dj.jpg" class="card-img-left" alt="Imagen DJ">
+                  <div class="card-news p-3">
+                      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#accordion1">
+                          <h5 class="card-title">Nuevos Espacios ></h5>
+                      </button>
+                      <div id="accordion1" class="collapse">
+                          <p class="card-text">
+                              Descubre escenarios únicos y rincones sorprendentes en Zeta Sound, diseñados para que vivas cada momento del festival de una forma inolvidable.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Card 2 -->
+          <div class="col-12 col-md-6">
+              <div class="card flex-md-row flex-column align-items-center" data-aos="flip-right">
+                  <img src="media/news_comunity.jpg" class="card-img-left" alt="Imagen DJ">
+                  <div class="card-news p-3">
+                      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#accordion2">
+                          <h5 class="card-title">Nuestra Comunidad ></h5>
+                      </button>
+                      <div id="accordion2" class="collapse">
+                          <p class="card-text">
+                              Únete a la comunidad de Zeta Sound y comparte tu pasión por la música urbana junto a miles de fans como tú.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Card 3 -->
+          <div class="col-12 col-md-6">
+              <div class="card flex-md-row flex-column align-items-center" data-aos="flip-left">
+                  <img src="media/news_work.jpg" class="card-img-left" alt="Imagen DJ">
+                  <div class="card-news p-3">
+                      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#accordion3">
+                          <h5 class="card-title">Trabaja con nosotros ></h5>
+                      </button>
+                      <div id="accordion3" class="collapse">
+                          <p class="card-text">
+                              Forma parte del equipo de Zeta Sound y contribuye a crear una experiencia única en el festival de música urbana más esperado del año.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Card 4 -->
+          <div class="col-12 col-md-6">
+              <div class="card flex-md-row flex-column align-items-center" data-aos="flip-right">
+                  <img src="media/news_artist.jpg" class="card-img-left" alt="Imagen DJ">
+                  <div class="card-news p-3">
+                      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#accordion4">
+                          <h5 class="card-title">Tus Artistas Favoritos ></h5>
+                      </button>
+                      <div id="accordion4" class="collapse">
+                          <p class="card-text">
+                              Vibra en directo con tus artistas favoritos en Zeta Sound: los mejores talentos de la música urbana reunidos en un solo escenario.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+      
+
+    <section id="artist" class="container my-5">
+      <h1 class="title">Artistas</h1>
+      <p class="subtitle">¿En serio te vas a perder a estos pedazo de artistas?</p>
+    
+
+      <!-- CARRUSEL -->
+
+      <section class="collection">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+        <div class="content swiper-slide">
+          <img src="media/artist_badgyal.jpg" alt="">
+          <div class="text-content">
+            <h3>Bad Gyal</h3>
+            
+          </div>
+        </div>
+        <div class="content swiper-slide">
+          <img src="media/artist_cruzzi.jpg" alt="">
+          <div class="text-content">
+            <h3>Cruz Cafuné</h3>
+            
+          </div>
+        </div>
+        <div class="content swiper-slide">
+          <img src="media/artist_ferxo.jpeg" alt="">
+          <div class="text-content">
+            <h3>Feid</h3>
+            
+          </div>
+        </div>
+        <div class="content swiper-slide">
+          <img src="media/artist_karolg.jpg" alt="">
+          <div class="text-content">
+            <h3>Karol G</h3>
+            
+          </div>
+        </div>
+        <div class="content swiper-slide">
+          <img src="media/artist_lolaindigo.jpg" alt="">
+          <div class="text-content">
+            <h3>Lola Índigo</h3>
+            
+          </div>
+        </div>
+        <div class="content swiper-slide">
+          <img src="media/artist_recycledj.jpg" alt="">
+          <div class="text-content">
+            <h3>Recycled J</h3>
+            
+          </div>
+        </div>
+        </div>
+        </div>
+      </section>
+
+    </section>
+
+  <section id="radio" class="container my-5">
+    <h1 class="title">Zeta Radio</h1>
+    <p class="subtitle">Ponte al día y que no te pille el toro</p>
+    
+
+    <div class="video-radio-container">
+        <iframe  style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6JbeQSgbRYjOsY7d9dWiZl?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" position="absolute"></iframe>
+    </div>
+    
+  </section>
+
+  <!-- ARTISTAS -->
+  <section id="experience" class="container my-5">
+      <div class="text-experience">
+        <h1 class="title">Zeta Experience</h1>
+        <p class="subtitle">¿No quieres disfrutar como ellos? Apúntate tontorrón</p>
+      </div>
+  </section>
+
+  <div class="gallery-container">
+    <div class="gallery">
+        <img src="media/photo_galery_5.jpg" alt="Image 1">
+        <img src="media/photo_galery_2.jpg" alt="Image 2">
+        <img src="media/photo_galery_3.jpg" alt="Image 3">
+        <img src="media/photo_galery_4.jpg" alt="Image 4">
+        <img src="media/photo_galery_5.jpg" alt="Image 5">
+
+        <img src="media/photo_galery_6.jpg" alt="Image 1">
+        <img src="media/photo_galery_7.jpg" alt="Image 2">
+        <img src="media/photo_galery_8.jpg" alt="Image 3">
+        <img src="media/photo_galery_9.jpg" alt="Image 4">
+        <img src="media/photo_galery_10.jpg" alt="Image 5">
+    </div>
+  </div>
+
+  <div class="gallery-container2">
+    <div class="gallery2">
+      <img src="media/photo_galery_11.jpg" alt="Image 1">
+      <img src="media/photo_galery_12.jpg" alt="Image 2">
+      <img src="media/photo_galery_14.jpg" alt="Image 3">
+      <img src="media/photo_galery_15.jpg" alt="Image 4">
+
+      <img src="media/photo_galery_16.jpg" alt="Image 1">
+      <img src="media/photo_galery_7.jpg" alt="Image 2">
+      <img src="media/photo_galery_9.jpg" alt="Image 3">
+      <img src="media/photo_galery_10.jpg" alt="Image 4">
+  </div>
+  </div>
+
+  <section id="form" class="container my-5">
+    <div class="text-form">
+      <h1 class="title">¿Quieres ser parte de esto?</h1>
+      <p class="subtitle">Subscríbete a nuestra newletter y entérate de todo
+        antes que nadie.
+      </p>
+    </div>
+  </section>
+
+  <div class="container-form">
+    <form id="subscriptionForm">
+        <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" required>
+        </div>
+        <div class="form-group">
+            <label for="confirmPassword">Repetir Contraseña</label>
+            <input type="password" id="confirmPassword" required>
+        </div>
+        <button type="submit" class="submit-btn">Subscribirme</button>
+    </form>
+  </div>
+
+    <!-- Pop-up -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">UPSSS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lo siento :( ahora mismo no estamos disponibles, inténtalo más tarde!
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <footer class="footer">
+      <div class="patrocinadores">
+        <img src="media/patrocinadores_zs.png" class="img-fluid" alt="...">
+    </div>
+      <div class="container">
+
+          <div class="logo-footer">
+            <img src="media/logo_color_Zeta_Sound.png" class="img-fluid" alt="...">
+        </div>
+
+          <div class="row mt-4 justify-content-between align-items-center">
+              <div class="col-md-4 d-flex justify-content-start social-icons">
+                    <a href="https://www.instagram.com" target="_blank" class="mx-2">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" class="mx-2">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.tiktok.com" target="_blank" class="mx-2">
+                        <i class="fab fa-tiktok" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank" class="mx-2">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.twitch.tv" target="_blank" class="mx-2">
+                        <i class="fab fa-twitch" aria-hidden="true"></i>
+                    </a>
+              </div>
+    
+              <div class="col-md-6 d-flex justify-content-end links-grid">
+                <div class="row text-start">
+                    <div class="col-md-6 mb-2">
+                        <a href="media/PPRIVACIDAD_ZS.pdf" target="_blank">Política de privacidad</a>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <a href="media/AUTORIZACION_MENORES.pdf" target="_blank">Autorizaciones</a>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <a href="media/PCOOKIES_ZS.pdf" target="_blank">Política de cookies</a>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <a href="media/AVISOS_LEGALES_ZS.pdf" target="_blank">Avisos legales</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <script src="js/script.js"></script>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </body>
+</html>
